@@ -13,3 +13,25 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.movies-bar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.movies-bar::-webkit-scrollbar-track {
+  background: rgb(27, 27, 30);
+}
+
+.movies-bar::-webkit-scrollbar-thumb {
+  background: rgb(35, 35, 38);
+}
+
+.movies-bar::-webkit-scrollbar-thumb:hover {
+  background: rgb(45, 45, 51);
+}
+
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+}
